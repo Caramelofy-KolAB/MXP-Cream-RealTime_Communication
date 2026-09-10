@@ -29,7 +29,7 @@ To experiment with real-time communication protocol in .NET with SignalR through
 
 * *MMS* - Meaningful Modular/micro Service 
 
-🧭 **Sugar** 
+🧭 **Cream** 
 
 **The Architecture:** Compass-level (C) for the caramelization cycle
 
