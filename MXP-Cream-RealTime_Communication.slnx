@@ -1,7 +1,5 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/Client1/Client1.csproj" />
-    <Project Path="src/Client2/Client2.csproj" />
-    <Project Path="src/Server/Server.csproj" />
-  </Folder>
+  <Project Path="src/Client1/Client1.csproj" />
+  <Project Path="src/Client2/Client2.csproj" />
+  <Project Path="src/Server/Server.csproj" />
 </Solution>
