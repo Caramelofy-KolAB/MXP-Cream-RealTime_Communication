@@ -44,3 +44,6 @@ while (true)
         break;
     }
 }
+
+// Clean up
+await hubConnection.StopAsync();
