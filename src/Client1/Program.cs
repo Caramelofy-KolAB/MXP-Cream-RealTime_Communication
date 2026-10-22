@@ -1,5 +1,11 @@
 ﻿using Microsoft.AspNetCore.SignalR.Client;
 
+Console.WriteLine("------------------------------------------------------------------------------");
+Console.WriteLine("\nWelcome to\n \nMXP-Cream RealTime communication console Client 1\n");
+Console.WriteLine("------------------------------------------------------------------------------");
+
+Console.WriteLine("\nConnecting Client to server...\n");
+
 // Hub connection
 
 var hubConnection = new HubConnectionBuilder()

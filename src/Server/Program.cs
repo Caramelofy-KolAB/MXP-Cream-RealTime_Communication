@@ -9,7 +9,7 @@ var app = builder.Build();
 
 app.MapHub<PingPongHub>("/pingpong");
 
-Console.WriteLine("\nStarting up server http://localhost:61994...\n");
+Console.WriteLine("\nStarting up server on http://localhost:61994...\n");
 
 app.Run();
 
