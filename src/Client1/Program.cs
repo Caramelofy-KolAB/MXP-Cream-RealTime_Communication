@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.SignalR.Client;
 
+Console.Title = "Client 1";
+
 Console.WriteLine("------------------------------------------------------------------------------");
 Console.WriteLine("\nWelcome to\n \nMXP-Cream RealTime communication console Client 1\n");
 Console.WriteLine("------------------------------------------------------------------------------");
