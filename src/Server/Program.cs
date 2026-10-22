@@ -15,10 +15,10 @@ app.Run();
 
 public class PingPongHub: Hub
 {
-    public async Task SendPing()
+    public async Task SendPing(int clientNr)
     {
-        Console.WriteLine("[Server] Received Ping from a client! Responding with Pong...");
-        await Clients.All.SendAsync("ReceivePong", "Pong");
+        Console.WriteLine($"[Server] Received Ping from client {clientNr}! Responding with Pong...");
+        await Clients.All.SendAsync("ReceivePong", $"Pong - invoked by Client {clientNr}");
     }
 }
 

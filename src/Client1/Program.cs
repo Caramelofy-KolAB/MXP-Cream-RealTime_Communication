@@ -37,7 +37,7 @@ while (true)
     if (key == ConsoleKey.P)
     {
         Console.WriteLine("\n[Client] Sending: Ping");
-        await hubConnection.InvokeAsync("SendPing");
+        await hubConnection.InvokeAsync("SendPing", 1);
     }
     else
     {
