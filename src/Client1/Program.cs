@@ -18,8 +18,16 @@ hubConnection.On<string>("ReceivePong", (message)
         Console.WriteLine($"[Client] Received from server: {message}");
     });
 
-await hubConnection.StartAsync();
-Console.WriteLine("\nClient connected!\n");
+try
+{
+    await hubConnection.StartAsync();
+    Console.WriteLine("\nClient connected!\n");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Could not connect to server: {ex.Message}");
+    return;
+}
 
 Console.WriteLine("\n> Press 'P' on the keyboard to Ping the server. Press any other key to exit");
 
